@@ -40,7 +40,7 @@ class _MyQuotesState extends State<MyQuotes> {
   var _currentColor = 0;
 
   void nextRandomColor() {
-    _currentColor = _random.nextInt(10);
+    _currentColor = _random.nextInt(_colors.length);
   }
 
   void nextQuoteText() {
